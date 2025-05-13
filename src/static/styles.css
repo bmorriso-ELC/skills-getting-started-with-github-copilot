@@ -84,6 +84,16 @@ section h3 {
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
+  line-height: 1.4; /* Ensure proper spacing */
+}
+
+/* Add specificity if needed */
+.activity-card > ul {
+  margin-top: 10px;
+}
+
+.activity-card > ul > li {
+  font-size: 14px;
 }
 
 .form-group {
